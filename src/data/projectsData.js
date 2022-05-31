@@ -11,29 +11,29 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
+        projectName: 'OJOChat',
+        projectDesc: 'This project is chat app. Users can enjoy with their friends by sharing photo, text and so on.',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/cooldev225/React-ChatApp',
+        demo: 'https://ojochat.com',
         image: one
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Holdem Heroes',
+        projectDesc: "Holdem Heroes is the on-chain NFT Poker game. Mint the 1326 Hole Card combinations as NFTs. Then play Texas Hold'em with them! Mint price is dynamic with Dynamic Drops.",
+        tags: ['React', 'Node.js', 'Tailwind CSS'],
+        code: 'https://github.com/cooldev225/holdem-ui',
+        demo: 'https://www.holdemheroes.com/',
         image: two
     },
     {
         id: 3,
-        projectName: 'Weather App',
+        projectName: 'Funky Pigeon',
         projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        tags: ['React', 'jQuery', 'AWS', 'ASP.NET'],
+        code: 'https://github.com/cooldev225/19-09-08-PhotoEditorWeb',
+        demo: 'https://www.funkypigeon.com/',
         image: three
     },
     {
@@ -41,8 +41,8 @@ export const projectsData = [
         projectName: 'Android Patient Tracker',
         projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
         tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/cooldev225',
+        demo: 'https://github.com/cooldev225',
         image: four
     },
     {
@@ -50,8 +50,8 @@ export const projectsData = [
         projectName: 'E-Commerce App',
         projectDesc: 'A Simple E-commerce application',
         tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/cooldev225',
+        demo: 'https://github.com/cooldev225',
         image: five
     },
     {
@@ -59,8 +59,8 @@ export const projectsData = [
         projectName: 'Uber Lite',
         projectDesc: 'Uber clone',
         tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/cooldev225',
+        demo: 'https://github.com/cooldev225',
         image: six
     },
     {
@@ -68,8 +68,8 @@ export const projectsData = [
         projectName: 'Stock Market App',
         projectDesc: 'A simple stock market API app',
         tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/cooldev225',
+        demo: 'https://github.com/cooldev225',
         image: seven
     },
     {
@@ -77,8 +77,8 @@ export const projectsData = [
         projectName: 'Car Pooling System',
         projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
         tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/cooldev225',
+        demo: 'https://github.com/cooldev225',
         image: eight
     },
 ]
