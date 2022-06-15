@@ -1,10 +1,7 @@
 /* eslint-disable */
-import { BiShoppingBag, BiPencil } from "react-icons/bi";
 import { BsCodeSlash, BsCurrencyBitcoin } from "react-icons/bs";
 import { DiDatabase, DiReact, DiNodejs } from "react-icons/di";
-import { AiOutlineMail, AiFillMobile, AiOutlineMobile, AiTwotoneMobile } from "react-icons/ai";
-import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
-import { CgIfDesign } from "react-icons/cg";
+import { AiOutlineMobile, AiTwotoneMobile } from "react-icons/ai";
 
  
 

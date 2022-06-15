@@ -8,17 +8,9 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
-import {
-    FaSkype,
-    FaLinkedin,
-    FaGithub,
-    FaTelegram,
-    FaMailchimp,
-    FaSlack,
-} from 'react-icons/fa';
+import { FaSkype, FaLinkedin, FaGithub, FaTelegram } from 'react-icons/fa';
 
-import {FiMail
-} from 'react-icons/fi';
+import { FiMail } from 'react-icons/fi';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
