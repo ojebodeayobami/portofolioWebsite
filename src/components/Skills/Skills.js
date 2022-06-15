@@ -32,7 +32,25 @@ function Skills() {
                         play={true} 
                         direction="left"
                     >
-                        {skillsData.map((skill, id) => (
+                        {skillsData.filter((item, index) => index < 10).map((skill, id) => (
+                            <div className="skill--box" key={id} style={skillBoxStyle}>
+                                <img src={skillsImage(skill)} alt={skill} />
+                                <h3 style={{color: theme.tertiary}}>
+                                    {skill}
+                                </h3>
+                            </div>
+                        ))}
+                    </Marquee>
+                    <Marquee 
+                        gradient={false} 
+                        speed={80} 
+                        pauseOnHover={true}
+                        pauseOnClick={true} 
+                        delay={0}
+                        play={true} 
+                        direction="left"
+                    >
+                        {skillsData.filter((item, index) => index >= 10).map((skill, id) => (
                             <div className="skill--box" key={id} style={skillBoxStyle}>
                                 <img src={skillsImage(skill)} alt={skill} />
                                 <h3 style={{color: theme.tertiary}}>
