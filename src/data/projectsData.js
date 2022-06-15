@@ -11,11 +11,11 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'OJOChat',
-        projectDesc: 'This project is chat app. Users can enjoy with their friends by sharing photo, text and so on.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/cooldev225/React-ChatApp',
-        demo: 'https://ojochat.com',
+        projectName: 'Quantex',
+        projectDesc: 'Quantex (Formerly CryptiSwap) is a Global Crypto Exchange featuring a Non-Custodial swap platform and an Advanced Trading platform.',
+        tags: ['React', 'CSS', 'Material Ui', 'AWS'],
+        code: 'https://github.com/cooldev225/',
+        demo: 'https://www.crunchbase.com/organization/cryptiswap',
         image: one
     },
     {
@@ -29,15 +29,24 @@ export const projectsData = [
     },
     {
         id: 3,
+        projectName: 'OJOChat',
+        projectDesc: 'This project is chat app. Users can enjoy with their friends by sharing photo, text and so on.',
+        tags: ['React', 'CSS', 'Material Ui'],
+        code: 'https://github.com/cooldev225/React-ChatApp',
+        demo: 'https://ojochat.com',
+        image: one
+    },
+    {
+        id: 4,
         projectName: 'Funky Pigeon',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
+        projectDesc: 'Celebrate their birthday with a range of funny, personal and traditional birthday cards for him, for her and for kids! Jump straight into all cards or explore our top picks to find a card they are sure to love and then add a personal touch with their name, photo or a thoughtful message inside.',
         tags: ['React', 'jQuery', 'AWS', 'ASP.NET'],
         code: 'https://github.com/cooldev225/19-09-08-PhotoEditorWeb',
         demo: 'https://www.funkypigeon.com/',
         image: three
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Android Patient Tracker',
         projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
         tags: ['Flutter', 'Firebase'],
@@ -46,7 +55,7 @@ export const projectsData = [
         image: four
     },
     {
-        id: 5,
+        id: 6,
         projectName: 'E-Commerce App',
         projectDesc: 'A Simple E-commerce application',
         tags: ['React Native', 'Firebase'],
@@ -55,7 +64,7 @@ export const projectsData = [
         image: five
     },
     {
-        id: 6,
+        id: 7,
         projectName: 'Uber Lite',
         projectDesc: 'Uber clone',
         tags: ['Flutter'],
@@ -64,7 +73,7 @@ export const projectsData = [
         image: six
     },
     {
-        id: 7,
+        id: 8,
         projectName: 'Stock Market App',
         projectDesc: 'A simple stock market API app',
         tags: ['React', 'Redux', 'Bootstrap'],
@@ -73,7 +82,7 @@ export const projectsData = [
         image: seven
     },
     {
-        id: 8,
+        id: 9,
         projectName: 'Car Pooling System',
         projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
         tags: ['Flutter', 'React'],

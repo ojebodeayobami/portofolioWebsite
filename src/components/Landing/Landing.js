@@ -9,12 +9,16 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
+    FaSkype,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
-    FaBlogger,
+    FaTelegram,
+    FaMailchimp,
+    FaSlack,
 } from 'react-icons/fa';
+
+import {FiMail
+} from 'react-icons/fi';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -75,6 +79,45 @@ function Landing() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
+                        {socialsData.skype && (
+                            <a
+                                href={socialsData.skype}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaSkype
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Skype'
+                                />
+                            </a>
+                        )}
+                        {socialsData.mail && (
+                            <a
+                                href={socialsData.mail}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FiMail
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Mail'
+                                />
+                            </a>
+                        )}
+                        {socialsData.telegram && (
+                            <a
+                                href={socialsData.telegram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaTelegram
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Telegram'
+                                />
+                            </a>
+                        )}
                         {socialsData.linkedIn && (
                             <a
                                 href={socialsData.linkedIn}
@@ -98,45 +141,6 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='GitHub'
-                                />
-                            </a>
-                        )}
-                        {socialsData.twitter && (
-                            <a
-                                href={socialsData.twitter}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaTwitter
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
-                                />
-                            </a>
-                        )}
-                        {socialsData.youtube && (
-                            <a
-                                href={socialsData.youtube}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaYoutube
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
-                                />
-                            </a>
-                        )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
                                 />
                             </a>
                         )}

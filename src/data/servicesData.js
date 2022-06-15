@@ -1,77 +1,49 @@
 /* eslint-disable */
 import { BiShoppingBag, BiPencil } from "react-icons/bi";
-import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
-import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
+import { BsCodeSlash, BsCurrencyBitcoin } from "react-icons/bs";
+import { DiDatabase, DiReact, DiNodejs } from "react-icons/di";
+import { AiOutlineMail, AiFillMobile, AiOutlineMobile, AiTwotoneMobile } from "react-icons/ai";
 import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { CgIfDesign } from "react-icons/cg";
 
  
 
 export const servicesData = [
-    // {
-    //     id: 1,
-    //     title: 'Marketing',
-    //     icon: <BiShoppingBag/>
-    // },
+    {
+        id: 1,
+        title: 'Blockchain Development Services',
+        icon: <BsCurrencyBitcoin />
+    },
     {
         id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
+        title: 'Web Application Development Services',
+        icon: <DiReact /> 
     },
     {
         id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
+        title: 'Mobile App Development Services',
+        icon: <AiOutlineMobile />
     },
-    // {
-    //     id: 4,
-    //     title: 'Internet Research',
-    //     icon: <FaInternetExplorer />
-    // },
-    // {
-    //     id: 5,
-    //     title: 'Tutoring',
-    //     icon: <FaChalkboardTeacher />
-    // },
+    {
+        id: 4,
+        title: 'Enterprise Web Development Solutions',
+        icon: <DiNodejs />
+    },
+    {
+        id: 5,
+        title: 'Database Management Solutions',
+        icon: <DiDatabase />
+    },
 
     {
         id: 6,
-        title: 'Web Design',
+        title: 'Graphics Web Design',
+        icon: <AiTwotoneMobile />
+    },
+    {
+        id: 6,
+        title: 'High Productivity Services:',
         icon: <BsCodeSlash />
-    },
-    {
-        id: 7,
-        title: 'Photography',
-        icon: <FaCameraRetro />
-    },
-    // {
-    //     id: 8,
-    //     title: 'Pinterest Virtual Assistant',
-    //     icon: <FaPinterest />
-    // }, 
-    {
-        id: 9,
-        title: 'Video Editing',
-        icon: <FaVideo />
-    },
-    // {
-    //     id: 10,
-    //     title: 'Data Entry', 
-    //     icon: <BsClipboardData />
-    // },
-    {
-        id: 11,
-        title: 'Ebook Writing',
-        icon: <FaTabletAlt />
-    },
-    // {
-    //     id: 12,
-    //     title: 'Audio Transcription',
-    //     icon: <AiFillAudio />
-    // },
-    {
-        id: 13,
-        title: 'Blog Posting',
-        icon: <FaRegNewspaper />
     },
 
 ]

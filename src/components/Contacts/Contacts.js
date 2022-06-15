@@ -16,7 +16,11 @@ import {
     FaInstagram,
     FaGitlab,
     FaMediumM,
+    FaSkype,
+    FaTelegram,
 } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
+
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
@@ -313,14 +317,24 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
+                            {socialsData.skype && (
                                 <a
-                                    href={socialsData.twitter}
+                                    href={socialsData.skype}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaTwitter aria-label='Twitter' />
+                                    <FaSkype aria-label='Skype' />
+                                </a>
+                            )}
+                            {socialsData.telegram && (
+                                <a
+                                    href={socialsData.telegram}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaTelegram aria-label='Skype' />
                                 </a>
                             )}
                             {socialsData.github && (
@@ -343,16 +357,6 @@ function Contacts() {
                                     <FaLinkedinIn aria-label='LinkedIn' />
                                 </a>
                             )}
-                            {socialsData.instagram && (
-                                <a
-                                    href={socialsData.instagram}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaInstagram aria-label='Instagram' />
-                                </a>
-                            )}
                             {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
@@ -361,36 +365,6 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaMediumM aria-label='Medium' />
-                                </a>
-                            )}
-                            {socialsData.blogger && (
-                                <a
-                                    href={socialsData.blogger}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaBloggerB aria-label='Blogger' />
-                                </a>
-                            )}
-                            {socialsData.youtube && (
-                                <a
-                                    href={socialsData.youtube}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaYoutube aria-label='YouTube' />
-                                </a>
-                            )}
-                            {socialsData.reddit && (
-                                <a
-                                    href={socialsData.reddit}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaRedditAlien aria-label='Reddit' />
                                 </a>
                             )}
                             {socialsData.stackOverflow && (

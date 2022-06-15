@@ -20,4 +20,11 @@ export const experienceData = [
         startYear: '2016',
         endYear: '2019'
     },
+    {
+        id: 4,
+        company: 'Self Employed',
+        jobtitle: 'Fullstack Developer',
+        startYear: '2014',
+        endYear: '2016'
+    },
 ]
